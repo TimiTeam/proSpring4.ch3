@@ -1,5 +1,6 @@
 package com.apress.prospring4.ch3;
 
+import com.apress.prospring4.ch3.xml.CollectionInjection;
 import com.apress.prospring4.ch3.xml.SimpleTarget;
 import org.apache.log4j.Logger;
 import org.springframework.context.ApplicationContext;
@@ -21,14 +22,20 @@ public class HierarchicalAppContextUsage {
         child.load("xml-bean-factory-config.xml"); // and then set the path to XML file
         child.refresh();
 
-        SimpleTarget target1 = child.getBean("target1",SimpleTarget.class);
-        LOGGER.info(target1.getValue());
+//        SimpleTarget target1 = child.getBean("target1",SimpleTarget.class);
+//        LOGGER.info(target1.getValue());
+//
+//        SimpleTarget target2 = child.getBean("target2",SimpleTarget.class);
+//        LOGGER.info(target2.getValue());
+//
+//        SimpleTarget target3 = child.getBean("target3",SimpleTarget.class);
+//        LOGGER.info(target3.getValue());
 
-        SimpleTarget target2 = child.getBean("target2",SimpleTarget.class);
-        LOGGER.info(target2.getValue());
+        CollectionInjection injection = child.getBean("injectCollection",CollectionInjection.class);
+        LOGGER.info(injection.toString());
 
-        SimpleTarget target3 = child.getBean("target3",SimpleTarget.class);
-        LOGGER.info(target3.getValue());
+
+
 
     }
 }

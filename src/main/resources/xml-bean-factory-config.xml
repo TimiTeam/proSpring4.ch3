@@ -42,9 +42,42 @@
     </bean>
     <!--getting parent value on  XML files and setting this value this object-->
 
-
     <bean id="injectBean" class="java.lang.String"
           c:_0="Child In Bean"/>
+    <bean id="injectCollection" class="com.apress.prospring4.ch3.xml.CollectionInjection">
+        <property name="map">
+            <map>
+                <entry key="Hello Wold">
+                    <value>Привет Мир</value>
+                </entry>
+                <entry key="Study">
+                    <value>Изучаю</value>
+                </entry>
+                <entry key="bean">
+                    <ref bean="oracle"/>
+                </entry>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="firstName">Timur</prop>
+                <prop key="lastName">Bujalo</prop>
+            </props>
+        </property>
+        <property name="list">
+            <list>
+                <value>Kiev</value>
+                <value>Lviv</value>
+                <value>Kharkiv</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <ref bean="messageProvider"/>
+                <ref bean="oracle"/>
+            </set>
+        </property>
+    </bean>
 
 
 </beans>

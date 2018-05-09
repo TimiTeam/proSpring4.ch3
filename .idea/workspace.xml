@@ -24,48 +24,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DeclareSpringComponents.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/DeclareSpringComponents.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookwormOracle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/xml/BookwormOracle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InjectRef.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/xml/InjectRef.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HierarchicalAppContextUsage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/HierarchicalAppContextUsage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HierarchicalAppContextUsage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/HierarchicalAppContextUsage.java">
+      <file leaf-file-name="CollectionInjection.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/xml/CollectionInjection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66174495">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.738255">
+              <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,45 +64,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/xml-bean-factory-config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="45" selection-end-column="50" />
+              <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parent.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/parent.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleTarget.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/xml/SimpleTarget.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InjectSimpleConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/conf/InjectSimpleConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-              <folding>
-                <element signature="e#392#393#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -124,8 +76,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -166,8 +118,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/xml/BookwormOracle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/xml/SimpleTarget.java" />
         <option value="$PROJECT_DIR$/src/main/resources/parent.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/xml/Collectioninjection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/xml/CollectionAppContextFromXML.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/app-bean-collection-config-xml.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/CollectionAppContextFromXML.java" />
         <option value="$PROJECT_DIR$/src/main/resources/xml-bean-factory-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/HierarchicalAppContextUsage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/xml/CollectionInjection.java" />
       </list>
     </option>
   </component>
@@ -366,6 +323,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.apress.prospring4.ch3.HierarchicalAppContextUsage" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FirstProject" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CollectionAppContextFromXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.apress.prospring4.ch3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.apress.prospring4.ch3.CollectionAppContextFromXML" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -627,16 +604,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.XmlConfigWithBeanFactory" />
       <item index="1" class="java.lang.String" itemvalue="Application.DeclareSpringComponents" />
       <item index="2" class="java.lang.String" itemvalue="Application.HierarchicalAppContextUsage" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CollectionAppContextFromXML" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.HierarchicalAppContextUsage" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DeclareSpringComponents" />
-        <item index="2" class="java.lang.String" itemvalue="Application.XmlConfigWithBeanFactory" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CollectionAppContextFromXML" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DeclareSpringComponents" />
+        <item index="3" class="java.lang.String" itemvalue="Application.XmlConfigWithBeanFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -653,12 +632,12 @@
       <workItem from="1525793049841" duration="1435000" />
       <workItem from="1525868174768" duration="5017000" />
       <workItem from="1525879932396" duration="9479000" />
-      <workItem from="1525897336526" duration="2669000" />
+      <workItem from="1525897336526" duration="5647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18600000" />
+    <option name="totallyTimeSpent" value="21578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="0" />
@@ -738,10 +717,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -775,12 +751,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -945,6 +916,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12883435">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -981,6 +974,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1011,14 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/app-context-annotation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5538462">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/xml/BookwormOracle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1027,16 +1015,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app-context-annotation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33825505">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/DeclareSpringComponents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76404494">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/xml/SimpleTarget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.4247191">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,49 +1051,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/xml/InjectRef.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/parent.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/DeclareSpringComponents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.4247191">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/xml-bean-factory-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="45" selection-end-column="50" />
+          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/parent.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/xml/InjectRef.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/HierarchicalAppContextUsage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66174495">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring4/ch3/xml/CollectionInjection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.738255">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
           </folding>
         </state>
       </provider>
