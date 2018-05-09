@@ -4,7 +4,7 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
        <context:component-scan base-package="com.apress.prospring4.ch3.annotation"/>
-       <!-- Сканирование пакета не предмет поиска внедряемых бинов, аннотированных с помощью
+       <!-- Сканирование пакета нa предмет поиска внедряемых бинов, аннотированных с помощью
 @Component, @Controller, @Repository и @Service -->
 
 </beans>
