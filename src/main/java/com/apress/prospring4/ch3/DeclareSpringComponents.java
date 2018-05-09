@@ -1,7 +1,9 @@
 package com.apress.prospring4.ch3;
 
 
+import com.apress.prospring4.ch3.annotation.InjectSimpleConfig;
 import com.apress.prospring4.ch3.interfaces.MessageProvider;
+import com.apress.prospring4.ch3.annotation.InjectSimpleSpel;
 import com.apress.prospring4.ch3.interfaces.MessageRenderer;
 import org.apache.log4j.Logger;
 import org.springframework.context.ApplicationContext;
@@ -24,7 +26,10 @@ public class DeclareSpringComponents {
         MessageRenderer renderer1XML = contextFromXml.getBean("messageRender", MessageRenderer.class);
         LOGGER.info(renderer1XML.getMessageProvider().getMessage());
 
-        InjectSimpleSpel spel = contextFromXml.getBean("injectSimpleSpel",InjectSimpleSpel.class);
-        LOGGER.info("Object by XML config: "+spel.toString());
+//        InjectSimpleSpel spelXML = contextFromXml.getBean("injectSimpleSpel",InjectSimpleSpel.class);
+//        LOGGER.info("Object by XML config: "+spelXML.toString());
+
+        InjectSimpleSpel spel = context.getBean("injectSimpleSpel",InjectSimpleSpel.class);
+        LOGGER.info("Object by annotation config: "+spel.toString());
     }
 }
