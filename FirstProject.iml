@@ -6,6 +6,8 @@
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/xml-bean-factory-config.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/parent.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/parent.xml</file>
         </fileset>
       </configuration>
     </facet>

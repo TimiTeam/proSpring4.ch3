@@ -26,7 +26,23 @@
 
     <bean id="injectRef" class="com.apress.prospring4.ch3.xml.InjectRef">
         <property name="oracle" ref="oracle"/>
+        <!--inject bean in to the value of another bean-->
     </bean>
+
+    <bean id="target1" class="com.apress.prospring4.ch3.xml.SimpleTarget"
+          p:value-ref="injectBeanParent"/>
+
+    <bean id="target2" class="com.apress.prospring4.ch3.xml.SimpleTarget"
+          p:value-ref="injectBean"/>
+
+    <bean id="target3" class="com.apress.prospring4.ch3.xml.SimpleTarget">
+        <property name="value">
+            <ref parent="injectBean"/>
+        </property>
+    </bean>
+
+    <bean id="injectBean" class="java.lang.String"
+          c:_0="Child In Bean"/>
 
 
 </beans>
