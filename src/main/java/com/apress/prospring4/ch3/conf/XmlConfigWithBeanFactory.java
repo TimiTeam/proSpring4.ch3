@@ -1,7 +1,7 @@
 package com.apress.prospring4.ch3.conf;
 
 
-import com.apress.prospring4.ch3.BookwormOracle;
+import com.apress.prospring4.ch3.xml.BookwormOracle;
 import org.apache.log4j.Logger;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

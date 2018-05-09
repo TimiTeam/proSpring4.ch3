@@ -5,6 +5,7 @@ import com.apress.prospring4.ch3.annotation.InjectSimpleConfig;
 import com.apress.prospring4.ch3.interfaces.MessageProvider;
 import com.apress.prospring4.ch3.annotation.InjectSimpleSpel;
 import com.apress.prospring4.ch3.interfaces.MessageRenderer;
+import com.apress.prospring4.ch3.xml.InjectRef;
 import org.apache.log4j.Logger;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -29,7 +30,10 @@ public class DeclareSpringComponents {
 //        InjectSimpleSpel spelXML = contextFromXml.getBean("injectSimpleSpel",InjectSimpleSpel.class);
 //        LOGGER.info("Object by XML config: "+spelXML.toString());
 
-        InjectSimpleSpel spel = context.getBean("injectSimpleSpel",InjectSimpleSpel.class);
-        LOGGER.info("Object by annotation config: "+spel.toString());
+//        InjectSimpleSpel spel = context.getBean("injectSimpleSpel",InjectSimpleSpel.class);
+//        LOGGER.info("Object by annotation config: "+spel.toString());
+
+        InjectRef injectRefXML =  contextFromXml.getBean("injectRef",InjectRef.class);
+        LOGGER.info(injectRefXML.toString());
     }
 }

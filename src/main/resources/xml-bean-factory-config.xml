@@ -4,24 +4,30 @@
        xmlns:c="http://www.springframework.org/schema/c"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="oracle" name="wiseworm" class="com.apress.prospring4.ch3.BookwormOracle"/>
+    <bean id="oracle" name="wiseworm" class="com.apress.prospring4.ch3.xml.BookwormOracle"/>
 
-    <bean id="messageRender" class="com.apress.prospring4.ch3.StandardOutMessageRenderer"
+    <bean id="messageRender" class="com.apress.prospring4.ch3.xml.StandardOutMessageRenderer"
           p:messageProvider-ref="messageProvider"/>
     <!-- Set Injection -->
 
-    <bean id="messageProvider" class="com.apress.prospring4.ch3.ConfigurableMessageProvider"
+    <bean id="messageProvider" class="com.apress.prospring4.ch3.xml.ConfigurableMessageProvider"
           c:_0="Hello this is a Configurable Message with XML"/>
     <!-- Inject value 'message' in constructor -->
 
     <bean id="injectSimpleConfig" class="com.apress.prospring4.ch3.conf.InjectSimpleConfig"/>
 
-    <bean id="injectSimpleSpel" class="com.apress.prospring4.ch3.InjectSimpleSpel"
+    <bean id="injectSimpleSpel" class="com.apress.prospring4.ch3.xml.InjectSimpleSpel"
           p:name="#{injectSimpleConfig.name}"
           p:age="#{injectSimpleConfig.age+2}"
           p:ageinSeconds="#{injectSimpleConfig.ageinSeconds}"
           p:height="#{injectSimpleConfig.height}"
           p:programmer="#{injectSimpleConfig.programmer}"/>
+    <!-- Injecting values in this bean by using value of injectSimpleConfig -->
+
+    <bean id="injectRef" class="com.apress.prospring4.ch3.xml.InjectRef">
+        <property name="oracle" ref="oracle"/>
+        <!--inject bean in to the value of another bean-->
+    </bean>
 
 
 </beans>
