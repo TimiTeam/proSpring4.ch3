@@ -7,6 +7,6 @@
 
     <bean id="messageRender" class="com.apress.prospring4.ch3.StandardOutMessageRenderer"/>
 
-    <bean id="messageProvider" class="com.apress.prospring4.ch3.HelloWorldМessageProvider"/>
+    <bean id="messageProvider" class="com.apress.prospring4.ch3.HelloWorldMessageProvider"/>
 
 </beans>
