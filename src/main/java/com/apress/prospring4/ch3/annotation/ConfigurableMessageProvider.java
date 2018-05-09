@@ -11,7 +11,7 @@ public class ConfigurableMessageProvider implements MessageProvider {
     private String message;
 
     @Autowired
-    // For a simple injection, we moved the value in the XML file 
+    // For a simple injection, we moved the value in the XML file
     public ConfigurableMessageProvider(String message) {
         this.message = message;
     }

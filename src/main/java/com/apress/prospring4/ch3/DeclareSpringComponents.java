@@ -18,10 +18,13 @@ public class DeclareSpringComponents {
         ApplicationContext contextFromXml =
                 new ClassPathXmlApplicationContext("xml-bean-factory-config.xml");
 
-        MessageRenderer renderer = context.getBean("messageRender",MessageRenderer.class);
+        MessageRenderer renderer = context.getBean("messageRender", MessageRenderer.class);
         LOGGER.info(renderer.getMessageProvider().getMessage());
 
-        MessageRenderer renderer1XML = contextFromXml.getBean("messageRender",MessageRenderer.class);
+        MessageRenderer renderer1XML = contextFromXml.getBean("messageRender", MessageRenderer.class);
         LOGGER.info(renderer1XML.getMessageProvider().getMessage());
+
+        InjectSimpleSpel spel = contextFromXml.getBean("injectSimpleSpel",InjectSimpleSpel.class);
+        LOGGER.info("Object by XML config: "+spel.toString());
     }
 }
