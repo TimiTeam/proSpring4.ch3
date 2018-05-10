@@ -3,11 +3,37 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:c="http://www.springframework.org/schema/c"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
        <context:component-scan base-package="com.apress.prospring4.ch3.annotation"/>
        <!-- Сканирование пакета нa предмет поиска внедряемых бинов, аннотированных с помощью
 @Component, @Controller, @Repository и @Service -->
        <bean id="message" class="java.lang.String"
              c:_0="This message was created in XML for annotation @Autowire"/>
+
+       <util:map id="map" map-class="java.util.HashMap">
+              <entry key="Hello">
+                     <value>Привет</value>
+              </entry>
+              <entry key="Goodby">
+                     <value> Прощай</value>
+              </entry>
+       </util:map>
+       <util:list id="list" list-class="java.util.ArrayList">
+              <value>Spring MVC</value>
+              <value>Spring Boot</value>
+              <value>Spring Security</value>
+              <value>Spring Data</value>
+       </util:list>
+       <util:set id="set">
+              <ref bean="oracle"/>
+              <ref bean="messageRender"/>
+       </util:set>
+       <util:properties id="properties">
+              <prop key="A">Apple</prop>
+              <prop key="B">Ball</prop>
+              <prop key="C">Cow</prop>
+              <prop key="D">Door</prop>
+       </util:properties>
 
 </beans>
