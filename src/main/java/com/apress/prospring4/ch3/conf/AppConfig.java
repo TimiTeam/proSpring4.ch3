@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 //Creating Configuration Java-Class
+// This annotation tell us that this is a configuration class
 @Configuration
 public class AppConfig {
 
