@@ -14,7 +14,7 @@ import java.util.Set;
 @Service("injectCollection")
 public class CollectionInjection {
 
-    @Resource(name ="map")
+    @Resource(name ="map") // For correctly inject collection we using @Resource annotation
     private Map<String, Object> map;
 
     @Resource(name = "set")
