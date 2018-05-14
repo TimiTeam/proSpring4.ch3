@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 
-@Service("injectCollection")
+//@Service("injectCollection")
 public class CollectionInjection {
 
     @Resource(name ="map") // For correctly inject collection we using @Resource annotation
